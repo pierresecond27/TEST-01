@@ -1,0 +1,38 @@
+
+.carte {
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  width: 100%;
+  max-width: 350px;
+}
+
+
+.carte-image {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+
+.carte-contenu {
+  padding: 20px;
+}
+
+
+.carte-titre {
+  font-size: 50px;
+  color: #333333;
+  margin-bottom: 9px;
+}
+
+
+.carte-description {
+  font-size: 19px;
+  color: #666666;
+  letter-spacing: 0.1px;
+  text-align: justify;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
