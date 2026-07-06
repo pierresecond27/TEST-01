@@ -5,7 +5,6 @@ body {
     background-color: var(--blanc);
     line-height: 1.6;}
 
-    
 .conteneur-flexible {
     display: flex;
     justify-content: space-between;
@@ -28,19 +27,6 @@ ul {
 /* --- BOUTONS --- */
 .btn-orange {
     background-color: var(--orange);
-    color: var(--bleu-fonce);
-    padding: 10px 20px;
-    border-radius: 4px;
-    font-weight: bold;
-    transition: background 0.3s;
-}
-.btn-orange:hover {
-    background-color: var(--orange-survol);
-}
-
-.btn-bleu {
-    background-color: var(--bleu-fonce);
-    color: var(--blanc);
     padding: 10px 20px;
     border-radius: 4px;
     font-weight: bold;
