@@ -1,15 +1,64 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Test </title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Bootstrap CSS -->
+    <link href="styles.css" rel="stylesheet">
+
+    <title>Navbar Bootstrap</title>
 </head>
 <body>
-     <body>
 
-  <footer style="background-color: black; color: aliceblue; display: flex; align-items: center; justify-content: center; width: 100;">
-    <p> Mon Site. Tous droits réservés.</p>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary shadow">
+        <div class="container">
+
+            <!-- Logo -->
+            <a class="navbar-brand fw-bold" href="#">
+                MonSite
+            </a>
+
+
+            </button>
+
+            <!-- Liens -->
+            <div class="collapse navbar-collapse" id="navbarNav">
+
+                <ul class="navbar-nav ms-auto">
+
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">Accueil</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">À propos</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Services</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
+
+                </ul>
+
+                <!-- Bouton -->
+                <a href="#" class="btn btn-light ms-lg-3">
+                    Connexion
+                </a>
+
+            </div>
+
+        </div>
+    </nav>
+
+
+  <footer class="pieds">
+    <p>@ 2023 Mon Site. Tous droits réservés.</p>
 
   </footer>
 
